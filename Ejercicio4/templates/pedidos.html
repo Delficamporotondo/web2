@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/pedidos.css">
+    <title>Pedidos</title>
+</head>
+<body>
+   
+
+<main>
+    
+    <h1>
+        Para realizar tu pedido, contactanos por cualquiera de los siguientes medios:
+    </h1>
+
+    <nav>
+        <div> 
+            <ul class="contactos">
+                <li><a href="https://www.instagram.com/tu_usuario_de_instagram"><img src="../insta.png" alt="Instagram" width="50" height="50"></a></li>
+                <li><a href="https://wa.me/tunumerodetelefono"><img src="../app.webp" alt="WhatsApp" width="70" height="70"></a></li>
+                <li><a href="https://www.facebook.com/tu_pagina_de_facebook"><img src="../Facebook_icon.svg.png" alt="Facebook" width="50" height="50"></a></li>
+            </ul>
+        </div>
+        </nav>
+       
+        <div ling="center"id="main" class="todo">
+            <form action="cafeteria.html" method="get">
+        <fieldset>
+    
+            <legend>Pedidos</legend>
+            <div><br>
+                <label for="nombre y apellido">Nombre y apellido:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+            </div><br>
+            <div>
+                <label for="empresa">Empresa:</label>
+                <input type="text" id="empresa" name="empresa" placeholder="Empresa" required>
+            </div><br>
+            <div>
+                <label for="direccion">Direccion:</label>
+                <input type="text" id="direccion" name="direccion" placeholder="Direccion" required>
+            </div><br>
+            <div>
+                <label for="variedad">Variedad de cafe:</label>
+                <select name="variedad" id="variedad" required>
+                    <option value="Cafe expreso">Cafe expreso</option>
+                    <option value="Cafe doble">Cafe doble</option>
+                    <option value="Cafe flash">Cafe flash</option>
+                    <option value="Cafe mocha">Cafe mocha</option>
+                    <option value="Cappuccino">Cappuccino</option>
+                </select><br><br>
+            </div>
+            <div>
+                <label for="cantidad">Cantidad:</label>
+                <input type="number" id="cantidad" name="cantidad" placeholder="Cantidad" required>
+            </div><br>
+            <div>
+                <label for="cupon">Cupon de beneficio:</label>
+                <input type="text" id="cupon" name="cupon" placeholder="Cupon de beneficio">
+            </div><br>
+            <div>
+                <p>Proba nuetros nuevos snacks!</p>
+                <label for="snack">Snack:</label>
+        <select id="snack" name="snack">
+            <option value="brownie de Chocolate">Brownie de Chocolate</option>
+            <option value="Scon de Queso">Scon de Queso</option>
+            <option value="alfajor de dulce de Leche">Alfajor de Dulce de Leche</option>
+            <option value="coquito">Coquito</option>
+        </select>
+            </div><br>
+        
+            <input type="submit" name="Pedidos" value="Pedir"> <br>
+            <br>
+        </fieldset>
+    </div>
+    </form>
+    
+
+    <h2>
+        <strong>¡Gracias por elegirnos!</strong>
+    </h2>
+    
+    <div id="gif">
+        <img src="../cafemoviendose.gif" alt="cafe" width="600" height="400">
+    </div>
+
+</main>
+
+</body>
+</html>
